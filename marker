@@ -17,8 +17,7 @@
    <!-- 既成のHIROマーカーを使う例 --> 
    <a-marker preset="hiro"> 
     <!-- 原点に簡単な立方体を表示 --> 
-    <a-cylinder position="1.7 2.3 -1.7" radius="0.15" height="2.5" color="#804000"></a-cylinder>
-    <a-cone position="1.7 3.3 -1.7" height="2" color="#008040"></a-cone>
+    <a-box position="0 0.5 0" depth="1" height="1" width="1" color="#4CC3D9"></a-box>
     <a-text value="Hello AR.js" position="-0.8 1.8 0" color="#fff">
    </a-text> 
     </a-marker> 
